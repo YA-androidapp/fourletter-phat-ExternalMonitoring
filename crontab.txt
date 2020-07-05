@@ -1,0 +1,2 @@
+@reboot cd /home/pi/fourletter-phat-ExternalMonitoring && git fetch && git reset --hard origin/master
+* * * * * /home/pi/fourletter-phat-ExternalMonitoring/monitor.py
